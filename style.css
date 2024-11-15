@@ -1,0 +1,230 @@
+/* Basic Reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+  
+/* Layout and Colors */
+body {
+    color: #333;
+    background: #f9f9f9;
+    line-height: 1;
+}
+
+.section {
+    padding: 3em 1.5em;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+h2 {
+    font-size: 2em;
+    color: #444;
+    margin-bottom: 1em;
+    border-bottom: 3px solid #631b85;
+    padding-bottom: 0.5em;
+    text-align: left;
+}
+
+p {
+    color: #555;
+    line-height: 1.8;
+    text-align: left;
+}
+  
+/* Navbar */
+nav {
+    background: #333;
+    padding: 1em 0;
+    text-align: right;
+    position: fixed; 
+    top: 0;
+    left: 0; 
+    width: 100%;
+    z-index: 1000;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1em;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5em 1em;
+    transition: background 0.2s;
+}
+
+nav ul li a:hover {
+    background: #631b85;
+    border-radius: 5px;
+}
+  
+/* Header */
+header {
+    background: #555;
+    color: #fff;
+    margin: 3em auto;
+    padding: 2em;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    gap: 3em;
+    max-width: 980px;
+    margin: 0 auto;
+}
+  
+/* Profile Image */
+.profile-image img {
+    width: 230px;
+    height: 230px;
+    border-radius: 50%; 
+    object-fit: cover;
+    border: 3px solid #631b85;
+}
+  
+/* Header Text */
+.header-text h1 {
+    color: #fff;
+    font-size: 3em;
+    margin-bottom: 15px;
+}
+
+.header-text h1 span {
+    color: #e5c5f3;
+}
+
+.header-text p {
+    font-size: 1.2em;
+    color: #ddd;
+    margin-bottom: 2.5em;
+}
+
+.header-text a {
+    font-size: 1em;
+    font-weight: bold;
+    background: #e5c5f3;
+    color: #631b85;
+    padding: 1em 1em;
+    border-radius: 20px;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.header-text a:hover {
+    background: #631b85;
+    color: #fff;
+    transition: background 0.3s;
+}
+  
+/* Skills */
+.skills-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+    margin-top: 1em;
+}
+
+.skill {
+    background: #631b85;
+    color: #fff;
+    padding: 0.5em 1.5em;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 1em;
+    margin-bottom: 30px;
+}
+  
+/* Projects */
+.projects-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5em;
+}
+
+.project {
+    background: #fff;
+    border: 1px solid #ddd;
+    padding: 1em;
+    border-radius: 8px;
+    text-align: left;
+}
+
+.project h3 {
+    color: #333;
+    margin-bottom: 0.5em;
+}
+
+.project p {
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.project a {
+    color: #631b85;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.project a:hover {
+    text-decoration: underline;
+}
+  
+/* Contact Links with Icons */
+.contact-links {
+    display: flex;
+    gap: 1em;
+    /* justify-content: center; */
+    margin-top: 1em;
+}
+  
+.contact-links a {
+    color: #333;
+    padding: 0.5em 1em;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background 0.3s;
+    display: flex;
+    align-items: center; 
+}
+  
+.contact-links a i {
+    margin-right: 0.5em; 
+}
+  
+.contact-links a:hover {
+    background: #631b85;
+    color: #fff;
+}
+  
+.contact-links a i.fab, .contact-links a i.fas {
+    font-size: 1.2em; 
+}
+  
+  /* Footer */
+footer {
+    background: #333;
+    text-align: center;
+    padding: 1em;
+    font-size: 0.9em;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+footer p{
+    color: #fff;
+}
+
+
+  
