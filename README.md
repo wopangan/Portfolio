@@ -7,6 +7,5 @@ This is a simple static personal portfolio website designed to highlight my back
 - HTML
 - CSS
 - JavaScript
-- Node.js (ongoing backend focus)
 
 
